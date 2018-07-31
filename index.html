@@ -31,6 +31,8 @@
 	<link href="css/icons-fonts.css" rel="stylesheet"><!--  CSS THEME -->
 	<link href="css/style.css" rel="stylesheet"><!-- ANIMATE -->
 	<link href="css/animate.min.css" rel='stylesheet'><!-- IE Warning CSS -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <script src="js/owl-carousel/owl.carousel.js"></script>
 	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
 	<!-- Magnific popup, Owl Carousel Assets in style.css -->
@@ -368,87 +370,7 @@
 					</div></a>
 				</div>
 			</div>
-			<!-- FEATURES 1 -->
-
-
-			<div class="page-section" id="about">
-				<div class="container fes1-cont pb-0">
-					<div class="row">
-						<div class="col-md-8">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="fes1-main-title-cont wow fadeInDown">
-										<div class="fes1-title-50 font-poppins">
-											<strong>We are<br>
-											creative</strong>
-										</div>
-									</div>
-								</div>
-							</div>
-
-
-							<div class="row">
-								<div class="col-md-6 col-sm-6">
-									<div class="fes1-box wow fadeIn">
-										<div class="fes1-box-icon">
-											<div class="icon icon-basic-mixer2">
-											</div>
-										</div>
-
-
-										<h3>Fully Responsive</h3>
-									</div>
-								</div>
-
-
-								<div class="col-md-6 col-sm-6">
-									<div class="fes1-box wow fadeIn" data-wow-delay="200ms">
-										<div class="fes1-box-icon">
-											<div class="icon icon-basic-lightbulb">
-											</div>
-										</div>
-
-
-										<h3>Retina Ready</h3>
-									</div>
-								</div>
-							</div>
-
-
-							<div class="row">
-								<div class="col-md-6 col-sm-6">
-									<div class="fes1-box wow fadeIn" data-wow-delay="400ms">
-										<div class="fes1-box-icon">
-											<div class="icon icon-basic-helm">
-											</div>
-										</div>
-
-
-										<h3>Unique Design</h3>
-									</div>
-								</div>
-
-
-								<div class="col-md-6 col-sm-6">
-									<div class="fes1-box wow fadeIn" data-wow-delay="600ms">
-										<div class="fes1-box-icon">
-											<div class="icon icon-basic-settings">
-											</div>
-										</div>
-
-
-										<h3>Easy To Customize</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="col-md-4 mt-30 fes1-img-cont wow fadeInUp"><img alt="img" src="images/fes11-2.jpg">
-						</div>
-					</div>
-				</div>
-			</div>
+		
 			<!-- FEATURES 12 HALF COLORED -->
 
 
@@ -515,13 +437,12 @@
 			<!-- TESTIMONIALS CAROUSEL 3 -->
 
 
-			<div class="pt-110-b-80-cont pb-md-80" id="importantLinks">
+			<div class="pt-110-b-80-cont pb-md-80" id="boardmembers">
 				<div class=" text-center fes2-title-45 font-poppins">
 					<strong>Board Members</strong>
 				</div>
 
-
-				<div class="owl-plugin fullwidth-slider">
+				<div id="boardmembersowl" class="owl-plugin owl-1-pag-auto owl-carousel owl-arrows-bg">
 					<!-- Slide Item -->
 
 
@@ -625,73 +546,47 @@
 						</div>
 					</div>
 				</div>
+
+
 			</div>
 			<!-- FEATURES 17 OUR SERVICES 2 -->
 
 
-			<div class="page-section pt-160-b-120-cont">
+			<div id="documents" class="page-section pt-95-b-50-cont">
+        <div class=" text-center fes2-title-45 font-poppins">
+          <strong>Documents</strong>
+        </div>
 				<div class="container">
+          <br><br>
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<div class="mb-70 wow fadeIn">
-								<div class="fes17-title-cont">
-									<div class="fes17-box-icon">
-										<div class="icon icon-ecommerce-graph-increase">
-										</div>
-									</div>
 
-
-									<h3><strong>Marketing</strong>
-									</h3>
-								</div>
-
-
-								<div class="text-center">
-									Maecenas luctus nisi in sem fermentum blandit. In nec elit sollicitudin, elementum odio et, dictum purus. Proin malesuada quam a volutpat
-								</div>
+<a class="button rounded medium green btn-5 btn-5aa" href="covenants.pdf">
+  <span aria-hidden="true" class="button-icon-anim icon_document_alt"></span>
+  <span class="button-text-anim ">CARRINGTON RANCH COVENANTS</span>
+</a>
 							</div>
 						</div>
 
 
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<div class="mb-70 wow fadeIn" data-wow-delay="200ms">
-								<div class="fes17-title-cont">
-									<div class="fes17-box-icon">
-										<div class="icon icon-basic-settings">
-										</div>
-									</div>
-
-
-									<h3><strong>Development</strong>
-									</h3>
-								</div>
-
-
-								<div class="text-center">
-									Maecenas luctus nisi in sem fermentum blandit. In nec elit sollicitudin, elementum odio et, dictum purus. Proin malesuada quam a volutpat
-								</div>
-							</div>
+                <a class="button rounded medium green btn-5 btn-5aa" href="bylaws.pdf">
+                  <span aria-hidden="true" class="button-icon-anim fa fa-gavel"></span>
+                  <span class="button-text-anim ">CARRINGTON RANCH BYLAWS</span>
+                </a>
+              </div>
 						</div>
 
 
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<div class="mb-70 wow fadeIn" data-wow-delay="400ms">
-								<div class="fes17-title-cont">
-									<div class="fes17-box-icon">
-										<div class="icon icon-basic-share">
-										</div>
-									</div>
-
-
-									<h3><strong>Production</strong>
-									</h3>
-								</div>
-
-
-								<div class="text-center">
-									Maecenas luctus nisi in sem fermentum blandit. In nec elit sollicitudin, elementum odio et, dictum purus. Proin malesuada quam a volutpat
-								</div>
-							</div>
+                <a class="button rounded medium green btn-5 btn-5aa" href="fineschedule.pdf">
+                <span aria-hidden="true" class="button-icon-anim fa fa-clock-o"></span>
+                <span class="button-text-anim ">CARRINGTON RANCH FINE SCHEDULE</span>
+              </a>
+            </div>
 						</div>
 					</div>
 
@@ -699,136 +594,142 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<div class="mb-70 wow fadeIn" data-wow-delay="600ms">
-								<div class="fes17-title-cont">
-									<div class="fes17-box-icon">
-										<div class="icon icon-basic-target">
-										</div>
-									</div>
-
-
-									<h3><strong>Branding</strong>
-									</h3>
-								</div>
-
-
-								<div class="text-center">
-									Maecenas luctus nisi in sem fermentum blandit. In nec elit sollicitudin, elementum odio et, dictum purus. Proin malesuada quam a volutpat
-								</div>
-							</div>
+                <a class="button rounded medium green btn-5 btn-5aa" href="applicationforreviewofconstructiondocuments.pdf">
+                  <span aria-hidden="true" class="button-icon-anim icon_toolbox_alt"></span>
+                  <span class="button-text-anim ">REVIEW OF CONSTRUCTION APP</span>
+                </a>
+              </div>
 						</div>
 
 
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<div class="mb-70 wow fadeIn" data-wow-delay="800ms">
-								<div class="fes17-title-cont">
-									<div class="fes17-box-icon">
-										<div class="icon icon-basic-globe">
-										</div>
-									</div>
-
-
-									<h3><strong>Web Design</strong>
-									</h3>
-								</div>
-
-
-								<div class="text-center">
-									Maecenas luctus nisi in sem fermentum blandit. In nec elit sollicitudin, elementum odio et, dictum purus. Proin malesuada quam a volutpat
-								</div>
-							</div>
+                <a class="button rounded medium green btn-5 btn-5aa" href="checklistforconstructionplans.pdf">
+                  <span aria-hidden="true" class="button-icon-anim icon_check_alt2"></span>
+                  <span class="button-text-anim ">CHECKLIST FOR CONSTRUCTION PLANS</span>
+                </a>
+              </div>
 						</div>
 
 
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<div class="mb-70 wow fadeIn" data-wow-delay="1000ms">
-								<div class="fes17-title-cont">
-									<div class="fes17-box-icon">
-										<div class="icon icon-basic-picture">
+                <a class="button rounded medium green btn-5 btn-5aa" data-toggle="modal" data-target=".bs-example-modal-sm">
+                  <span aria-hidden="true" class="button-icon-anim arrow_expand_alt"></span>
+                  <span class="button-text-anim ">CR258 EXPANSION DOCUMENTS</span>
+                </a>
+              </div>
+						</div>
+					</div>
+				</div>
+        <div class="modal fade bs-example-modal-sm bootstrap-modal" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-body">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+												<h4 class="modal-title" id="mySmallModalLabel">CR258 Expansion Documents</h4>
+											</div>
+											<div class="modal-body">
+                        <a class="button rounded medium green btn-5 btn-5aa" href="CR258/Subdivision90.pdf">
+                          <span aria-hidden="true" class="button-icon-anim arrow_expand_alt"></span>
+                          <span class="button-text-anim ">SUBDIVISION REMITTAL 90%</span>
+                        </a>
+                        <br>
+                        <a class="button rounded medium green btn-5 btn-5aa" href="CR258/BillofSaleforfence.pdf">
+                          <span aria-hidden="true" class="button-icon-anim arrow_expand_alt"></span>
+                          <span class="button-text-anim ">BILL OF SALE FOR FENCE</span>
+                        </a>
+                        <br>
+                        <a class="button rounded medium green btn-5 btn-5aa" href="CR258/offerLforimprovement.pdf">
+                          <span aria-hidden="true" class="button-icon-anim arrow_expand_alt"></span>
+                          <span class="button-text-anim ">OFFER L OF IMPROVEMENT</span>
+                        </a>
+                        <br>
+                        <a class="button rounded medium green btn-5 btn-5aa" href="CR258/revisedofferLforimprovements.pdf">
+                          <span aria-hidden="true" class="button-icon-anim arrow_expand_alt"></span>
+                          <span class="button-text-anim ">REVISED OFFER L OF IMPROVEMENT</span>
+                        </a>
+                      </div>
 										</div>
 									</div>
-
-
-									<h3><strong>Photography</strong>
-									</h3>
-								</div>
-
-
-								<div class="text-center">
-									Maecenas luctus nisi in sem fermentum blandit. In nec elit sollicitudin, elementum odio et, dictum purus. Proin malesuada quam a volutpat
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
 			<!-- WORK PROCESS 2 -->
 
 
-			<div class="container-fluid p-110-cont bg-gray">
+			<div id="history" class="container-fluid p-110-cont bg-gray">
 				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="work-proc2-cont wow fadeIn">
-							<div class="work-proc2-icon-cont pos-l-12">
-								01
-							</div>
 
-
-							<h3><strong>Planning</strong>
-							</h3>
-
-
-							<p>Maecenas luctus nisi in sem fermen blandit. In nec elit</p>
+						<div class="wow fadeIn">
+              <div class="post-prev-img" style=" text-align: center;">
+                    <a href="#" data-toggle="modal" data-target=".home-modal"><img src="images/history.jpg" style="width:650px;height:418px;" alt="img"></a>
+                  </div>
 						</div>
-					</div>
 
 
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="work-proc2-cont wow fadeIn" data-wow-delay="200ms">
-							<div class="work-proc2-icon-cont">
-								02
-							</div>
 
 
-							<h3><strong>Developmen</strong>
-							</h3>
 
-
-							<p>Maecenas luctus nisi in sem fermen blandit. In nec elit</p>
-						</div>
-					</div>
-
-
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="work-proc2-cont wow fadeIn" data-wow-delay="400ms">
-							<div class="work-proc2-icon-cont">
-								03
-							</div>
-
-
-							<h3><strong>Launch</strong>
-							</h3>
-
-
-							<p>Maecenas luctus nisi in sem fermen blandit. In nec elit</p>
-						</div>
-					</div>
-
-
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="work-proc2-a-cont wow fadeIn" data-wow-delay="600ms">
-							<a class="work-proc2-a" href="#">
-							<div class="work-proc2-a-text">
-								Let's work<br>
-								<span class="border-bot">together</span>
-							</div>
-
-
-							<div class="work-proc2-bg-block">
-							</div></a>
-						</div>
-					</div>
 				</div>
+
+        <!-- Modal -->
+              <div class="modal fade home-modal bootstrap-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-md">
+                  <div class="modal-body">
+                    <div class="modal-content border-none border-rad-0">
+                      <button type="button" class="close modal-close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true" class="icon_close"></span></button>
+                      <!--<img src="images/blog/constr1-modal.jpg" alt="img"> -->
+                      <div class="pt-20 p-40">
+                        <h3 class="mb-0 text-center">History</h3>
+                        <br>
+                        <p>Note: This document was first written in 2003 and distributed by hand to some 20 plus property -owners. It presents a brief history of Carrington Ranch and. some issues that were addressed in the past. It has been reviewed and expanded in July 2011.</p>
+                        <p class="lead mt-20">Over recent years, questions have been raised over Restrictions and other matters. These restrictions were drafted and notarized by the original developer, Walter Carrington,and his agents in 1986 and duly filed with the Williamson County Clerk’s Office, and are in effect until 2016.</p>
+                        <p class="lead mt-0">A BRIEF HISTORY OF CARRINGTON RANCH </p>
+                        <p class="lead mt-20">By Agnes Robinson, Former Secretary and Appointed Board Member. </p>
+                        <p class="lead mt-20">By Agnes Robinson, Former Secretary and Appointed Board Member.</p>
+                        <p class="lead mt-20">WELCOME TO CARRINGTON RANCH! </p>
+                        <p class="lead mt-20">Many of you who are new may have questions about Carrington Ranch, its past and its present. These questions have been answered at meetings which some of you may have attended. To save time at future meeting by repeating the history of Carrington Ranch, I decided to write a brief history.</p>
+                        <p class="lead mt-20">Carrington Ranch was conceived of by its founder, Walter Canington, as a horse community, hence the easement restriction along the back of properties. Restrictions were drawn up and filed at the Williamson County Court House in 1986, (Owners should have been provided, with copies of those restrictions by their real estate agents before the closing of the purchase of their properties.)</p>
+                        <p class="lead mt-20">Originally, in 1986, the prices per acre were listed in the high twenties and mid thirties. (Copies of the original prices are still available in someone’s file.) One couple who purchased property did pay $27,000 for their acre, which is in 1980’s dollars when the dollar was worth a good bit more than it is today.</p>
+                        <p class="lead mt-20">Within a month of the sale, Carrington went into bankruptcy, a victim of the 1980’s oil bust, and the unsold property was repossessed by the bank in Temple which reduced the prices per acre to about half of the original asking prices. Then the bank went under and the property was sold at auction at a rock bottom price. During the time the bank held the property, the Board and the Architectural Control Committee (ACC) were bank officers, replacing the original ones named by Carrington.</p>
+                        <p class="lead mt-20">The new owner Perry Madison, who bought the bulk of the property at auction, did not name a Board or an ACC. There was no control over the building of two houses that did not meet specifications, both of their exteriors being covered only with tar paper, (though subsequent property owners improved them so that now they both meet restrictions). There was great uncertainty and worry on the part of those of us who owned property about how the development would go.</p>
+                        <p class="lead mt-20">Our own house, the 7th to be built, was already framed in 1993 when we learned that the property was purchased by Gerry Bauer, a Minnesota developer. Without informing the property owners, he changed the restrictions that provided for his plan to divide the lots into 1/4 acre lots and to sell manufactured homes, though he later told Agnes Robinson when she called him that he would build traditional homes: “I am now in the process of hiring framers.”</p>
+                        <p class="lead mt-20">He named a Board and ACC: himself, his lawyer, and a kind of overseer, none of whom lived on the property. When a double-wide was installed on Lot 61, (the lot where the septic tank was replaced in July of 2013 because the sale of the house could not be completed until it was). Some property owners met and under the leadership of Kevin (Kurt) and Holly Kociuba, eight out of the twelve property owners banded together to hire a lawyer to fight the change in restrictions. Five of those still live in the development (Cearleys, Lawsons, Kociubas, News and Robinsons).</p>
+                        <p class="lead mt-20">Bauer counter-sued which caused the eight property owners a great deal anxiety. There were no association funds available to hire a lawyer since, according to the restrictions, no Property Owners Association could be activated until a certain percentage of the property was held by individual owners. Time and effort were put into finding a lawyer who would take the case. When a lawyer was found, it cost each of the owners over $2,000 in the course of the law suit that dragged on for years.</p>
+                        <p class="lead mt-20">Documents of these legal transactions and records of monies collected and spent were kept by Hay Kociuba. (Later Holly handed the records over to an incoming treasurer who has since moved from the Carrington Ranch. At this time it is not known if those records were passed on and are still held by someone in the association). The anxiety of the situation lasted seven years when a legal settlement was made. If property owners had not committed personal monies and tremendous effort to do this, they would have been surrounded by manufactured homes and subsequent owners would have built somewhere else.</p>
+                        <p class="lead mt-20">Under the settlement with the Minnesota developer, the original restrictions were restored and owners won the right to have a resident Board and ACC, and to activate the Property Owners Association provided for in those restrictions, though there were not yet enough lots held by individual owners as specified by the original restrictions. The settlement named a Board and ACC, secretary and treasurer to serve as long as they were willing, “from among residents to serve as long as they were willing.”  They were Kevin (Kurt) Kociuba, Kenny Pearson, David Lawson, Agnes Robinson, and Jennifer Pearson. Since there were so few residents, these five served, in the capacity of a Board, ACC, and other officers. Owners who were not fee payers could not serve. A tax-exempt account was opened at Compass Bank When fees began to be collected. The writing of checks required two signatures.</p>
+                        <p class="lead mt-20">Even after the settlement, the future of Carrington Ranch was uncertain. Some property owners, old and new, resisted adhering to the restrictions under which they purchased their properties and this has generated a deal of stress. The Minnesota developer advertised the property for sale and we worried about who would purchase it. and what new problems we might encounter. There were problems. We became excited and relieved when the Cunningham family, a local group, expressed an interest in purchasing the acreage that was not owned by individuals. They met with the Board and membership and presented their plans for the development. They purchased the property and began building homes in 2001, and the quality of their homes set the trend for the type of homes that has been built since.</p>
+                        <p class="lead mt-0">THE PAST WORK and EXPENDITURES OF THE ACC AND THE BOARD</p>
+                        <p class="lead mt-20">Once the Property Owners Association was activated, the Board worked on getting the county to take over the roads, which were private roads and so property owners were responsible for repairs even though they paid county taxes. Under the leadership of Kenny Pearson, a petition was made to the Williamson County Commissioners Court to accept responsibility for maintaining the roads. The Court required that the roads be scraped along the edges and herbicide be applied to stop the growth of grass in and on the sides of the roads. The Court also required the posting of the speed limit signs, stop signs (which quickly disappeared most likely to decorate teenagers’ walls), and street signs. Equipment was rented to scrape the road sides, and money was spent on street signs, herbicides, and, cement to be used to repair culverts. All work was done on a volunteer basis, though the volunteers held jobs and had other responsibilities. When the County Commissioners requirement were met, they voted to accept Carrington Ranch roads. Maintenance is now the responsibility of the county, relieving property owners of the great expense of maintenance for which each individual property owner would have been responsible.</p>
+                        <p class="lead mt-20">Maintenance on common areas has been done on a volunteer basis. The lights at the gate were non-functional for years and David Lawson worked to make them functional again and later repaired the damage incurred when a load of building materials on a truck shifted and put the lights out. New fixtures were purchased since water got into the old ones and the lights kept burning out. Tom Jeffrey made sure that the lights at the gate were kept burning. Originally the landscaping at the gate was evergreens. Agnes Robinson, Kenny Pearson, Debby Norman, and Kim Milner pruned them each year and removed weeds. This was necessary because branches extending in the roadway scratched passing cars. Others occasionally cut the grass in the immediate gate area. In 2002 the evergreens were removed and the areas were replanted by the Cunninghams in a more contemporary style, but it required high maintenance. However the plantings grew out of control. Dean and Laurelei Andrews pruned and weeded. After heavy rains, weeds came back with great enthusiasm and Tyler Kociuba weeded and weeded. For a time Dick and Gillian Marvin tended the entrance on a regular basis. Recently a dedicated group of property owners, whose names I do not have record of scheduled time out of their busy schedules to cut the grass areas outside the fence. Fire hydrants were installed at the time the roads were built early on but were obscured by weeds and other high growth. Agnes Robinson maintained these and found hydrants no one knew existed. Christmas decorations were placed at the gate by Debby Norman and her daughter Karina. In the past, walkers picked up garbage along the roads. Sometimes the garbage was odorous. Deer heads and other parts were dumped by outsiders. Springs, mattresses and other large debris were also dumped.
+Carrington Ranch was sometimes a dumping area for unwanted pets. Various volunteers did first aid work on the fence, replacing nails, using wire to support boards.  The original fence has since been replaced.</p>
+                        <p class="lead mt-20">Monies, most payments not yet reimbursed, were made by Agnes Robinson and Holly Kociuba for copying, postage, phone calls, office supplies, electric bills, mileage for trip to lawyers and management companies and on other association business.</p>
+                        <p class="lead mt-20">Monies were used to hire a lawyer to force a builder to present plans to the ACC. He even began excavation for construction before presenting plans. Agnes Robinson stood before a dump truck and refused to let the trucker dump base materials Until plans were
+presented. Monies were used to file a lien on property for which fees had not been paid for six years.</p>
+                        <p class="lead mt-20">Efforts were made to work with one property owner whose property was in violation of restrictions regarding trash. Letters were sent by certified mail on three occasions, a requirement, before the County Commissions Court would enter to enforce the county ordnance regarding trash in platted developments. The property owner did not respond to these letters, nor did he remove the trash. A complaint was signed by all the resident owners and filed, and a county official inspected the property. The property owner was summoned before the Commissioners Court and the county oversaw the removal of trash,. including a refrigerator with the doors still on it in the front yard. (There were seven small children living in the house,). Trash was also in the back yard. Then there was trash again, including a bath tub on the front porch. No more action needed to be taken by the Property Owners Association since the property was monitored by the county and the property owner was again summoned by the Commissioners Court.</p>
+                        <p class="lead mt-0">MANAGEMENT COMPANY</p>
+                        <p class="lead mt-20">Collecting the fees was a problem. Only a small number of property owners paid fees regularly. Some questioned the legal status of property associations and their power to collect property fees. Research was done on documents at the State Law Library and copies of the law establishing the rights of homeowners association were distributed. Agnes Robinson went to offices of larger developments for information on the collection of fees. Getting a management. company to manage the collection of fees and to pay association bills was the answer. In addition, Agnes Robinson contacted thirteen management companies; only one agreed to work with this association. The Board contracted with Harder Management to help collect fees from property owners and title companies when sales were made, and to keep records for the CRPOA. The cost was $50 per month. Money collected was deposited in the Compass Bank Account. Harder Management gave advice advised on other matters, helping uowners to organize. From then on most property owners paid their fees on time. When Harder Management was absorbed by Goodwin Management the fees were raised to $100, then $150 per month. In the Fall of 2002 the association was notified that the fees as of January 2003 would be $200  per month. Since that would have taken $2,400 per year from our small fund, at the 2002 November meeting attending members voted to self manage and the association terminated its contract with Goodwin. This presented another problem. Compass Bank also said they would no longer hold our account. Search for a bank caused other problems. The closest banks would not set up a tax-free account for the association, only a business account that would charge monthly fees. Finally, Texas State Bank accepted the account to set up a tax-free account. Fees and other checks from title companies would be deposited. Checks were to be signed by the treasurer and the secretary. The bank required copies of minutes from the meeting in which the association voted to self manage, and letters from the Board naming those certified to write checks and other documents. Arrangements were made with Pedernales for automatic withdrawal for electrical bills.</p>
+                        <p class="lead mt-0">VOTING</p>
+                        <p class="lead mt-20">When the Property Owners Association was activated, the Board needed to consider the provision in the 1986 restrictions that voting was to be based on one vote per one lot. Since a few owned more than one lot, there was concern that some would have more say than others in association matters. Under the restrictions five owners of properties were entitled to thirteen votes. Owners of multiple lots agreed to give up their entitlement to one vote per one lot, with the stipulation that they would pay the fee at the same rate as others, that is $120 per year.</p>
+                        <p class="lead mt-0">SUMMARY COMMENTS</p>
+                        <p class="lead mt-20">A review of the early years of Carrington Ranch is evidence Carrington Ranch came into being differently than most residential developments, whose beginnings were business ventures. Carrington Ranch is a lovely place to live, to walk, to run, and to enjoy. This is due to is the dedication, energy, time, and on the part of some, a substantial expenditure of personal monies to protect the integrity of the original restrictions. None of the early residents were, or are wealthy. Investing in the future of this lovely place was a hardship, especially in terms of the difference in the value of monies then and now, and the difference in salaries then and now. I’ve sometimes asked those who came, and still come to me complaining about restrictions, if they would be willing to invest over S2,000 of their personal money to protect the present quality of  Carrington Ranch if that quality of life were threatened. They are silent and stare off, avoiding my eyes. Our investment should be regarded as having paid our fees forward. But we continue to pay our fees each year like all other property owners.</p>
+                        <p class="lead mt-20"></p>
+                        <p class="lead mt-20">When I’ve had complaints about why we who have lived here for a long time are “telling” other property owners what they can do on “their property” I remind them that the restrictions were drawn up and filed at the Court House in 1986, long before we ever knew of Carrington Ranch. I remind them of the shaky beginnings, I remind them that we make the assumption that all who have bought property here, bought it in good faith. They knew there were restrictions since those who assisted them in buying property were required to provide them with copies of the restrictions. My copy was given to me in 1987. Those of us who worked so hard to protect the integrity of those restrictions may not have agreed with all of the restrictions and still may not. But there are provisions for bringing about changes. Making changes takes effort and, according to the restrictions, all property owners must he included in the process, according to the ways of making changes that are outlined.</p>
+                        <p class="lead mt-20">Robert Frost wrote a poem about fences making good neighbors. This is also the goal of restrictions in restricted developments. Compliance should be dependent on the good will of all residents of Carrington Ranch until restrictions are changed by due process. All property owners are members of the association and subject to the restrictions until those are duly changed. There is a schedule of fines for lack of compliance; however, Boards would rather not have to resort to imposing those. Purchasing property in Carrington Ranch implies acceptance of restrictions to recognize the purpose of restrictions in is to avert potentially divisive problems in the future to promote neighborliness. When we see a need for change to improve our community, we need to go through the process of changing restrictions. Occasionally we have hit bumps in the road but overall this is a wonderful place to live among wonderful people. It is unlike any other development.</p>
+                        <p class="lead mt-20">Agnes J. Robinson, 300 Rock House Drive</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 			</div>
+
+
 			<!-- CLIENTS 2 -->
 
 
