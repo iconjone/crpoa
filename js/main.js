@@ -117,7 +117,7 @@ $(document).ready(function(){
 console.log("here");
     var target = $( $(this).attr('href') );
 console.log(target.offset().top);
-var scrolltoPx = target.offset().top - 155;
+var scrolltoPx = target.offset().top - 115;
     if( target.length ) {
       event.preventDefault();
       $('html, body').animate({
