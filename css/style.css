@@ -5937,6 +5937,7 @@ select.input-border {
 
 .font-white, .font-white a{color:#fff !important;}
 .font-black, .font-black a{color:#2a2b2f !important;}
+.font-logored {color:#722B00;}
 .font-dark {color:#101010;}
 .font-yellow {color:#f2e13c;}
 .font-purple {color:#676bb8;}
@@ -9107,6 +9108,14 @@ button {
 }
 .button.deeporange:hover {
 	background-color:#2a2b2f;
+	cursor:pointer;
+}
+.button.logored {
+	color:#fff;
+	background-color:#722B00;
+}
+.button.logored:hover {
+	background-color:#913600;
 	cursor:pointer;
 }
 .button.green {
