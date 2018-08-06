@@ -2307,7 +2307,7 @@ if it's not present, don't show loader */
   border: 1px solid #2a2b2f;
 }
 .header-black .cd-search-trigger::before {
-  border: 2px solid #330500;
+  border: 2px solid #722B01;
 }
 .cd-search-trigger::after {
   /* handle */
@@ -2323,7 +2323,7 @@ if it's not present, don't show loader */
   transform: rotate(45deg);
 }
 .header-black .cd-search-trigger::after {
-  background: #330500;
+  background: #722B01;
   height: 2px;
 }
 .cd-search-trigger span {
@@ -2948,7 +2948,7 @@ img, video {
   top:0;
   width:100%;
   height:80px;
-  background: #330500;
+  background: #722B01;
   z-index:-1;
 }
 .transparent-fix {
@@ -6654,7 +6654,7 @@ background:none;
 	box-shadow: 0 1px 15px rgba(0,0,0, .15);
 }
 .affix.header-black .header-wrapper {
-	background: #330500;
+	background: #722B01;
 }
 #nav-below.header {
 	position:relative;
@@ -9115,7 +9115,7 @@ button {
 	background-color:#722B00;
 }
 .button.logored:hover {
-	background-color:#722B00;
+	background-color:#ba4500;
 	cursor:pointer;
 }
 .button.green {
@@ -11432,7 +11432,7 @@ h2.portfolio-timeline-title {
     margin-bottom:0px;
   }
   .header.header-black.mobile-no-transparent {
-    background:#330500;
+    background:#722B01;
   }
   .header .right-box-wrapper {
     text-align: right;
@@ -13556,7 +13556,7 @@ header.is-fixed {
   /* these are the upper and lower lines in the menu icon */
 }
 .header-black .fs-primary-nav-trigger .fs-menu-icon {
-  background-color: #330500;
+  background-color: #722B01;
 }
 .fs-primary-nav-trigger .fs-menu-icon::before, .fs-primary-nav-trigger .fs-menu-icon:after {
   content: '';
@@ -13570,7 +13570,7 @@ header.is-fixed {
   transition: transform .3s, top .3s, background-color 0s;
 }
 .header-black .fs-primary-nav-trigger .fs-menu-icon::before, .header-black .fs-primary-nav-trigger .fs-menu-icon:after {
-  background-color: #330500;
+  background-color: #722B01;
 }
 .fs-primary-nav-trigger .fs-menu-icon::before {
   top: -7px;
