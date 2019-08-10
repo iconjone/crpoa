@@ -2323,7 +2323,7 @@ if it's not present, don't show loader */
   transform: rotate(45deg);
 }
 .header-black .cd-search-trigger::after {
-  background: #686868;
+  background: #722B01;
   height: 2px;
 }
 .cd-search-trigger span {
@@ -2948,7 +2948,7 @@ img, video {
   top:0;
   width:100%;
   height:80px;
-  background: #686868;
+  background: #722B01;
   z-index:-1;
 }
 .transparent-fix {
@@ -6654,7 +6654,7 @@ background:none;
 	box-shadow: 0 1px 15px rgba(0,0,0, .15);
 }
 .affix.header-black .header-wrapper {
-	background: #686868;
+	background: #722B01;
 }
 #nav-below.header {
 	position:relative;
